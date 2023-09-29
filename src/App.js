@@ -32,7 +32,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1 className="Heading">Our Tours</h1>
+      <h1 className="Heading">Our peris Tours</h1>
       <div className="underline"></div>
      {loading && <Loading/>}
      {!loading && <Tours tours={tours} handleDelete={handleDelete}/>}
